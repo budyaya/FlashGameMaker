@@ -1,0 +1,261 @@
+{
+	"name":"Slug",
+	"fps":8,
+	"w":120,
+	"h":120,
+	"d":30, 
+	"row":15,
+	"col":4,
+	"life":500,
+	"mp":200,
+	
+	"frames":[
+		{
+			"id":0, "frame":0, "name":"Stand", "state":"Stand", "wait":5, "reverse":1,"dvx":0, "hit_stand_up":4,"hit_stand_down":8,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":28,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":1,"frame":1, "name":"Stand", "state":"Stand", "wait":5, "reverse":1,"dvx":0, "hit_stand_up":4,"hit_stand_down":8,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":28, "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":2,"frame":2, "name":"Stand", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "hit_stand_up":4,"hit_stand_down":8,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":28,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":3,"frame":3, "name":"Stand", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "hit_stand_up":4,"hit_stand_down":8,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":28,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":4,"frame":44, "name":"StandUp", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":32,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":5,"frame":45, "name":"StandUp", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":32,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":6,"frame":46, "name":"StandUp", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":32,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":7,"frame":47, "name":"StandUp", "state":"Stand","wait":5,"reverse":1,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":32,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":8,"frame":16, "name":"StandDown", "state":"Stand", "wait":5,"reverse":1,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":36,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":9,"frame":17, "name":"StandDown", "state":"Stand", "wait":5,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":36,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":10,"frame":18, "name":"StandDown", "state":"Stand", "wait":5,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":36,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":11,"frame":19, "name":"StandDown", "state":"Stand", "wait":5,"dvx":0, "next":0,"hit_walk":12,"hit_walk_up":16,"hit_walk_down":20,"hit_a":36,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":12, "frame":8, "name":"Walk", "state":"Walk", "wait":5,"flip":true, "next":0,"reverse":1, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":40,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":13,"frame":9, "name":"Walk", "state":"Walk", "wait":3, "next":0, "dvx":5,  "dvz":0, "offsetx":0, "offsety":0,"hit_walk_up":16,"hit_walk_down":20, "hit_a":40,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":14,"frame":10, "name":"Walk", "state":"Walk", "wait":5, "next":0, "dvx":5, "dvz":0, "offsetx":0, "offsety":0,"hit_walk_up":16,"hit_walk_down":20, "hit_a":40,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":15,"frame":11, "name":"Walk", "state":"Walk", "wait":9, "next":0, "dvx":5, "dvz":0, "offsetx":0, "offsety":0,"hit_walk_up":16,"hit_walk_down":20, "hit_a":40,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":16, "frame":52, "name":"WalkUp", "state":"Walk", "wait":5,"flip":true, "next":0,"dvx":4,  "dvz":0,"reverse":1,"hit_stand_up":4, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_a":44,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":17,"frame":53, "name":"WalkUp", "state":"Walk", "wait":3, "next":0, "dvx":4,  "dvz":0, "offsetx":0, "offsety":0,"hit_walk":12,"hit_stand_up":4, "hit_a":44,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":18,"frame":54, "name":"WalkUp", "state":"Walk", "wait":5, "next":0, "dvx":4, "dvz":0, "offsetx":0, "offsety":0,"hit_walk":12,"hit_stand_up":4, "hit_a":44,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":19,"frame":55, "name":"WalkUp", "state":"Walk", "wait":9, "next":0, "dvx":4, "dvz":0, "offsetx":0, "offsety":0, "hit_walk":12,"hit_stand_up":4,"hit_a":44,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":20, "frame":24, "name":"WalkDown", "state":"Walk", "wait":5,"flip":true, "next":0,"reverse":1, "dvx":3, "dvz":0,"hit_stand_down":8,"hit_walk":12, "offsetx":0, "offsety":0, "hit_a":48,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":21,"frame":25, "name":"WalkDown", "state":"Walk", "wait":3, "next":0, "dvx":3,  "dvz":0, "offsetx":0, "offsety":0, "hit_stand_down":8,"hit_walk":12,"hit_a":48,  "hit_j":24, 
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":22,"frame":26, "name":"WalkDown", "state":"Walk", "wait":5, "next":0, "dvx":3, "dvz":0,"hit_stand_down":8,"hit_walk":12, "offsetx":0, "offsety":0, "hit_a":48,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":23,"frame":27, "name":"WalkDown", "state":"Walk", "wait":9, "next":0, "dvx":3, "dvz":0,"hit_stand_down":8,"hit_walk":12, "offsetx":0, "offsety":0, "hit_a":48,  "hit_j":24,
+			"bdy": {"kind":0, "x":19, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":24,"frame":32, "name":"Jump", "state":"Jump", "wait":2, "next":0, "dvz":12,"endAnim":true, "hit_a":52, "hit_a_down":56,
+			"bdy": {"kind":0, "x":26, "y":26, "w":34, "h":56}
+		},
+		{
+			"id":25,"frame":33, "name":"Jump", "state":"Jump", "wait":5, "next":0, "dvz":12, "hit_a":52,"hit_a_down":52, "hit_a_down":56,
+			"bdy": {"kind":0, "x":26, "y":26, "w":34, "h":56}
+		},
+		{
+			"id":26,"frame":34, "name":"Jump", "state":"Jump", "wait":0, "next":0, "dvz":12, "hit_a":52,"hit_a_down":52, "hit_a_down":56,
+			"bdy": {"kind":0, "x":26, "y":26, "w":34, "h":56}
+		},
+		{
+			"id":27,"frame":35, "name":"Jump", "state":"Jump", "wait":0, "next":0, "dvz":12, "hit_a":52,"hit_a_down":52, "hit_a_down":56,
+			"bdy": {"kind":0, "x":26, "y":26, "w":34, "h":56}
+		},
+		{
+			"id":28,"frame":4, "name":"StandShoot", "state":"Stand", "wait":100,"endAnim":true,"fps":12, "next":0, "hit_a":28,"hit_a_down":36,"hit_a_up":32,"hit_walk":12,
+			"opoint":{"kind": 1,  "x": 90,  "y": 45,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":29,"frame":5, "name":"StandShoot", "state":"Stand", "wait":0, "next":0, "dvx":0,"offsetx":0, "offsety":0,"hit_a":28,"hit_a_down":36,"hit_a_up":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":30,"frame":6, "name":"StandShoot", "state":"Stand", "wait":0, "next":0, "dvx":0,"offsetx":0, "offsety":0,"hit_a":28,"hit_a_down":36,"hit_a_up":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":31,"frame":7, "name":"StandShoot", "state":"Stand", "wait":0, "next":0, "dvx":0,"offsetx":0, "offsety":0,"hit_a":28,"hit_a_down":36,"hit_a_up":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":32,"frame":48, "name":"StandShootUp", "state":"Stand", "wait":0,"endAnim":true,"fps":12, "next":4,"hit_a":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":33,"frame":49, "name":"StandShootUp", "state":"Stand", "wait":0, "next":4, "dvx":0,"offsetx":0, "offsety":0,"hit_a":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":34,"frame":50, "name":"StandShootUp", "state":"Stand", "wait":0, "next":4, "dvx":0,"offsetx":0, "offsety":0,"hit_a":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":35,"frame":51, "name":"StandShootUp", "state":"Stand", "wait":0, "next":4, "dvx":0,"offsetx":0, "offsety":0,"hit_a":32,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":36,"frame":20, "name":"StandShootDown", "state":"Stand", "wait":0,"endAnim":true,"fps":12, "next":8,"hit_a":36,"hit_walk":12,
+			"opoint":{"kind": 1,  "x": 90,  "y": 55,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":37,"frame":21, "name":"StandShootDown", "state":"Stand", "wait":0, "next":8, "dvx":0,"offsetx":0, "offsety":0,"hit_a":36,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":38,"frame":22, "name":"StandShootDown", "state":"Stand", "wait":0, "next":8, "dvx":0,"offsetx":0, "offsety":0,"hit_a":36,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":39,"frame":23, "name":"StandShootDown", "state":"Stand", "wait":0, "next":8, "dvx":0,"offsetx":0, "offsety":0,"hit_a":36,"hit_walk":12,
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":40, "frame":12, "name":"WalkShoot", "state":"Walk","endAnim":true, "wait":5, "next":12, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":40,"hit_a_down":48,"hit_a_up":44,"hit_walk":12,
+			"opoint":{"kind": 1,  "x": 90,  "y": 45,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":41, "frame":13, "name":"WalkShoot", "state":"Walk", "wait":5,"next":12, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":40, "hit_a_down":48,"hit_a_up":44,"hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":42, "frame":14, "name":"WalkShoot", "state":"Walk", "wait":5, "next":12, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":40,"hit_a_down":48,"hit_a_up":44, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":43, "frame":15, "name":"WalkShoot", "state":"Walk", "wait":5, "next":12, "dvx":5, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":40, "hit_a_down":48,"hit_a_up":44,  "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":44, "frame":56, "name":"WalkShootUp", "state":"Walk","endAnim":true, "wait":5, "next":16, "dvx":4, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":44,  "hit_j":24, "hit_walk":12,
+			"opoint":{"kind": 1,  "x": 60,  "y": -25,  "action": 0,  "dvx": 0,  "dvy": -10,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":45, "frame":57, "name":"WalkShootUp", "state":"Walk", "wait":5, "next":16, "dvx":4, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":44,  "hit_j":24, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":46, "frame":58, "name":"WalkShootUp", "state":"Walk", "wait":5, "next":16, "dvx":4, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":44,  "hit_j":24, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":47, "frame":59, "name":"WalkShootUp", "state":"Walk", "wait":5, "next":16, "dvx":4, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":44,  "hit_j":24, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":48, "frame":21, "name":"WalkShootDown", "state":"Walk","endAnim":true, "wait":5, "next":20, "dvx":3, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":48,  "hit_j":24,"hit_walk":12, 
+			"opoint":{"kind": 1,  "x": 90,  "y": 55,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":49, "frame":22, "name":"WalkShootDown", "state":"Walk", "wait":5, "next":20, "dvx":3, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":48,  "hit_j":24, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":50, "frame":23, "name":"WalkShootDown", "state":"Walk", "wait":5, "next":20, "dvx":3, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":48,  "hit_j":24, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},
+		{
+			"id":51, "frame":24, "name":"WalkShootDown", "state":"Walk", "wait":5,"next":20, "dvx":3, "dvz":0, "offsetx":0, "offsety":0, "hit_walk_up":16,"hit_walk_down":20,"hit_a":48, "hit_walk":12,
+			"bdy": {"kind":0, "x":14, "y":18, "w":36, "h":62}
+		},		
+		{
+			"id":52,"frame":36, "name":"JumpShoot", "state":"Jump","endAnim":true, "fps":18,"wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":52,"hit_d":56,
+			"opoint":{"kind": 1,  "x": 80,  "y": 45,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":21, "y":18, "w":43, "h":62}
+		},
+		{
+			"id":53,"frame":37, "name":"JumpShoot", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":52,"hit_d":56,
+			"bdy": {"kind":0, "x":21, "y":18, "w":35, "h":56}
+		},
+		{
+			"id":54,"frame":38, "name":"JumpShoot", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":52,"hit_d":56,
+			"bdy": {"kind":0, "x":24, "y":6, "w":29, "h":60}
+		},
+		{
+			"id":55,"frame":39, "name":"JumpShoot", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":52,"hit_d":56,
+			"bdy": {"kind":0, "x":11, "y":2, "w":29, "h":63}
+		},
+		{
+			"id":56,"frame":40, "name":"JumpShootDown", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":56,"hit_d":56,
+			"opoint":{"kind": 1,  "x": 80,  "y": 45,  "action": 0,  "dvx": 10,  "dvy": 0,  "oid": 100,  "facing": 0},
+			"bdy": {"kind":0, "x":11, "y":2, "w":29, "h":63}
+		},
+		{
+			"id":57,"frame":41, "name":"JumpShootDown", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":56,"hit_d":56,
+			"bdy": {"kind":0, "x":11, "y":2, "w":29, "h":63}
+		},
+		{
+			"id":58,"frame":42, "name":"JumpShootDown", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":56,"hit_d":56,
+			"bdy": {"kind":0, "x":11, "y":2, "w":29, "h":63}
+		},
+		{
+			"id":59,"frame":43, "name":"JumpShootDown", "state":"Jump", "wait":0,"next":0,"dvz":14, "offsetx":0, "offsety":0,"hit_a":56,"hit_d":56,
+			"bdy": {"kind":0, "x":11, "y":2, "w":29, "h":63}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<docProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <pageTitle>FlashGameMaker AS3</pageTitle>
+  <classPaths />
+  <sourcesList />
+  <outputDirectory>asDoc</outputDirectory>
+  <activeCompiler>1</activeCompiler>
+  <extraOptions>-warnings=false -allow-source-path-overlap=true  -external-library-path "C:\Users\NDOYEA\Adobe Flash Builder 4\FGMv2.1\lib" -source-path "C:\Users\NDOYEA\Adobe Flash Builder 4\FGMv2.1\classes"       -doc-sources "C:\Users\NDOYEA\Adobe Flash Builder 4\FGMv2.1"</extraOptions>
+</docProject>
